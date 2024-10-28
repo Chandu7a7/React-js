@@ -55,6 +55,9 @@ const Users = () => {
         </button>
       </div>
       <div>{loading ? <Loading /> : <UsersContainer users={users} />}</div>
+     
+    <p align="center" className="border-t border-gray-500 pt-2 text-white" >Develope by Chandu @ copyright 2024</p>
+
     </div>
   );
 };
